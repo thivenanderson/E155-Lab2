@@ -1,3 +1,3 @@
-#E155 Lab 1
+#E155 Lab 2
  
- This repository includes code to verify the proper assemply of the development board and operation of the MCU and FPGA
+ This repository includes code to run a dual seven segment display using a time-multiplexed decoder, as well as a scanning circuit to verify logical signals can pass through a keypad.
