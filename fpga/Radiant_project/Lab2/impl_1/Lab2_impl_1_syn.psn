@@ -16,6 +16,6 @@ Constraint Summary:
 Writing output file 'Lab2_impl_1_syn.udb'.
 POSTSYN finished successfully.
 Total CPU Time: 0 secs 
-Total REAL Time: 2 secs 
-Peak Memory Usage: 41 MB
-Checksum -- postsyn: 24ae99dc64ae8716cbf87ab8cf887a40213e389d
+Total REAL Time: 0 secs 
+Peak Memory Usage: 42 MB
+Checksum -- postsyn: 626ad4ead509866a49ff0feb513f14be97bf586d

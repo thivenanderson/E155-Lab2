@@ -1,0 +1,23 @@
+# *** Summary *********************************************
+#     qrun: Errors:   0, Warnings:   0
+#     vlog: Errors:   0, Warnings:   0
+#     vopt: Errors:   0, Warnings:   3
+#   Totals: Errors:   0, Warnings:   3
+# ** Note: (vsim-220) 'C:/lscc/radiant/2026.1/questasim/win64/../modelsim.ini' is used as the ini file.
+# vsim -L work -L pmi_work -L ovi_ice40up -lib qrun.out/work -wlf vsim.wlf -gui -do "view wave" -do "add wave /*" -do "run -all" -statslog qrun.out/stats_log qrun_opt -suppress vsim-7033,vsim-8630,3009,3389 -appendlog -l qrun.log 
+# Start time: 18:53:01 on Sep 13,2026
+# Loading sv_std.std
+# Loading work.lab2_ta_scan_tb(fast)
+# Loading work.lab2_ta_scan(fast)
+# Loading work.lab2_ta_counter(fast)
+# view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+# add wave /*
+# run -all
+# Passed! The scanner module behaves as desired at time: 16.
+# Passed! The scanner module behaves as desired at time: 46.
+# Passed! The scanner module behaves as desired at time: 76.
+# Passed! The scanner module behaves as desired at time: 106.
+# ** Note: $stop    : C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/source/impl_1/lab2_ta_scan_tb.sv(62)
+#    Time: 116 ns  Iteration: 0  Instance: /lab2_ta_scan_tb
+# Break in Module lab2_ta_scan_tb at C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/source/impl_1/lab2_ta_scan_tb.sv line 62

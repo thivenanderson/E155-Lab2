@@ -1,32 +1,54 @@
 ----------------------------------------------------------------------
 Report for cell lab2_ta.TECH
-Register bits:  18 of 5280 (0.341%)
-I/O cells:      19
+Register bits:  42 of 5280 (0.795%)
+I/O cells:      31
                                   Cell usage:
                                cell     count   Res Usage(%)
-                               CCU2        10          100.0
-                            FD1P3XZ        18          100.0
+                               CCU2        23          100.0
+                            FD1P3XZ        42          100.0
                          HSOSC_CORE         1          100.0
-                                 IB        10          100.0
-                               LUT4        43          100.0
-                                 OB         9          100.0
+                                 IB        14          100.0
+                               LUT4       100          100.0
+                                 OB        17          100.0
 SUB MODULES
             lab1_ta_hex_seg_decoder         1
 lab2_ta_counter(WIDTH=18,MAX_COUNT=200000)         1
-                              TOTAL        93
-----------------------------------------------------------------------
-Report for cell lab2_ta_counter(WIDTH=18,MAX_COUNT=200000).v1
-Instance Path : count
-                                  Cell usage:
-                               cell     count   Res Usage(%)
-                                FA2        10          100.0
-                            FD1P3XZ        18          100.0
-                               LUT4        25           58.1
-                              TOTAL        53
+lab2_ta_counter(WIDTH=24,MAX_COUNT=11999999)         1
+                       lab2_ta_scan         1
+                              TOTAL       201
 ----------------------------------------------------------------------
 Report for cell lab1_ta_hex_seg_decoder.v1
 Instance Path : decoder
                                   Cell usage:
                                cell     count   Res Usage(%)
-                               LUT4         7           16.3
+                               LUT4         7            7.0
                               TOTAL         7
+----------------------------------------------------------------------
+Report for cell lab2_ta_counter(WIDTH=18,MAX_COUNT=200000).v1
+Instance Path : count
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                                FA2        10           43.5
+                            FD1P3XZ        18           42.9
+                               LUT4        25           25.0
+                              TOTAL        53
+----------------------------------------------------------------------
+Report for cell lab2_ta_scan.v1
+Instance Path : scan
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                                FA2        13           56.5
+                            FD1P3XZ        24           57.1
+                               LUT4        52           52.0
+SUB MODULES
+lab2_ta_counter(WIDTH=24,MAX_COUNT=11999999)         1
+                              TOTAL        90
+----------------------------------------------------------------------
+Report for cell lab2_ta_counter(WIDTH=24,MAX_COUNT=11999999).v1
+Instance Path : scan.count
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                                FA2        13           56.5
+                            FD1P3XZ        24           57.1
+                               LUT4        37           37.0
+                              TOTAL        74

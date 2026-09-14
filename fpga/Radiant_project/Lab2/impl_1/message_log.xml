@@ -808,6 +808,31 @@
             <Navigation>5</Navigation>
         </Message>
         <Message>
+            <ID>35901018</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/source/impl_1/lab2_ta_scan.sv(6): </Dynamic>
+            <Dynamic>lab2_ta_scan</Dynamic>
+            <Navigation>C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/source/impl_1/lab2_ta_scan.sv</Navigation>
+            <Navigation>6</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/source/impl_1/lab2_ta_counter.sv(5): </Dynamic>
+            <Dynamic>lab2_ta_counter(WIDTH=24,MAX_COUNT=11999999)</Dynamic>
+            <Navigation>C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/source/impl_1/lab2_ta_counter.sv</Navigation>
+            <Navigation>5</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/source/impl_1/lab2_ta_counter.sv(21): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>24</Dynamic>
+            <Navigation>C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/source/impl_1/lab2_ta_counter.sv</Navigation>
+            <Navigation>21</Navigation>
+        </Message>
+        <Message>
             <ID>35001797</ID>
             <Severity>1</Severity>
         </Message>
@@ -851,6 +876,31 @@
             <Dynamic>lab1_ta_hex_seg_decoder</Dynamic>
             <Navigation>../source/impl_1/lab1_ta_hex_seg_decoder.sv</Navigation>
             <Navigation>5</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>1</Severity>
+            <Dynamic>../source/impl_1/lab2_ta_scan.sv(6): </Dynamic>
+            <Dynamic>lab2_ta_scan</Dynamic>
+            <Navigation>../source/impl_1/lab2_ta_scan.sv</Navigation>
+            <Navigation>6</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>1</Severity>
+            <Dynamic>../source/impl_1/lab2_ta_counter.sv(5): </Dynamic>
+            <Dynamic>lab2_ta_counter(WIDTH=24,MAX_COUNT=11999999)</Dynamic>
+            <Navigation>../source/impl_1/lab2_ta_counter.sv</Navigation>
+            <Navigation>5</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>16</Severity>
+            <Dynamic>../source/impl_1/lab2_ta_counter.sv(21): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>24</Dynamic>
+            <Navigation>../source/impl_1/lab2_ta_counter.sv</Navigation>
+            <Navigation>21</Navigation>
         </Message>
         <Message>
             <ID>35002062</ID>
@@ -901,6 +951,66 @@
             <ID>35002062</ID>
             <Severity>16</Severity>
             <Dynamic>enable</Dynamic>
+        </Message>
+        <Message>
+            <ID>35002062</ID>
+            <Severity>16</Severity>
+            <Dynamic>col[3]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35002062</ID>
+            <Severity>16</Severity>
+            <Dynamic>col[2]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35002062</ID>
+            <Severity>16</Severity>
+            <Dynamic>col[1]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35002062</ID>
+            <Severity>16</Severity>
+            <Dynamic>col[0]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35002062</ID>
+            <Severity>16</Severity>
+            <Dynamic>led[3]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35002062</ID>
+            <Severity>16</Severity>
+            <Dynamic>led[2]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35002062</ID>
+            <Severity>16</Severity>
+            <Dynamic>led[1]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35002062</ID>
+            <Severity>16</Severity>
+            <Dynamic>led[0]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35002062</ID>
+            <Severity>16</Severity>
+            <Dynamic>scanner[3]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35002062</ID>
+            <Severity>16</Severity>
+            <Dynamic>scanner[2]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35002062</ID>
+            <Severity>16</Severity>
+            <Dynamic>scanner[1]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35002062</ID>
+            <Severity>16</Severity>
+            <Dynamic>scanner[0]</Dynamic>
         </Message>
         <Message>
             <ID>35002062</ID>

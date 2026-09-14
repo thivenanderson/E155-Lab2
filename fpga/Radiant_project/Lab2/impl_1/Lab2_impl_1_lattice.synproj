@@ -43,6 +43,8 @@
 -sver "../source/impl_1/lab1_ta_hex_seg_decoder.sv"
 -sver "../source/impl_1/lab2_ta.sv"
 -sver "../source/impl_1/lab2_ta_counter.sv"
+-sver "../source/impl_1/lab2_ta_scan.sv"
+-sver "../source/impl_1/lab2_ta_scan_tb.sv"
 -path ".."
 -top lab2_ta
 # Output Configuration

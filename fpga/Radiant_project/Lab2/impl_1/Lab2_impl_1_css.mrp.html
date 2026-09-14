@@ -49,7 +49,7 @@ Package: SG48
 Performance Grade:  High-Performance_1.2V
 
 Mapper:    version Radiant Software (64-bit) 2026.1.0.37.0
-Mapped on: Sat Sep 12 17:56:31 2026
+Mapped on: Sun Sep 13 18:51:54 2026
 
 <A name="mrp_di"></A><B><U><big>Design Information</big></U></B>
 
@@ -60,20 +60,20 @@ Command line:   map -pdc C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Rad
 
 <A name="mrp_ds"></A><B><U><big>Design Summary</big></U></B>
 
-   Number of slice registers:  18 out of  5280 (&lt;1%)
+   Number of slice registers:  42 out of  5280 (1%)
    Number of I/O registers:      0 out of   117 (0%)
-   Number of LUT4s:            64 out of  5280 (1%)
-      Number of logic LUT4s:              44
-      Number of ripple logic:             10 (20 LUT4s)
-   Number of IO sites used:   19 out of 39 (49%)
-      Number of IO sites used for general PIO: 19
+   Number of LUT4s:           147 out of  5280 (3%)
+      Number of logic LUT4s:             101
+      Number of ripple logic:             23 (46 LUT4s)
+   Number of IO sites used:   31 out of 39 (79%)
+      Number of IO sites used for general PIO: 31
       Number of IO sites used for I3C: 0 out of 2 (0%)
       (note: If I3C is not used, its site can be used as general PIO)
-      Number of IO sites used for PIO+I3C: 19 out of 36 (53%)
+      Number of IO sites used for PIO+I3C: 31 out of 36 (86%)
       Number of IO sites used for OD+RGB IO buffers: 0 out of 3 (0%)
       (note: If RGB LED drivers are not used, sites can be used as OD outputs,
        see TN1288 iCE40 LED Driver Usage Guide)
-      Number of IO sites used for PIO+I3C+OD+RGB: 19 out of 39 (49%)
+      Number of IO sites used for PIO+I3C+OD+RGB: 31 out of 39 (79%)
    Number of DSPs:             0 out of 8 (0%)
    Number of I2Cs:             0 out of 2 (0%)
    Number of High Speed OSCs:  1 out of 1 (100%)
@@ -87,23 +87,23 @@ Command line:   map -pdc C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Rad
    Number of EBRs:             0 out of 30 (0%)
    Number of PLLs:             0 out of 1 (0%)
    Number of Clocks:  1
-      Net int_osc: 18 loads, 18 rising, 0 falling (Driver: Pin hf_osc/CLKHF)
+      Net int_osc: 42 loads, 42 rising, 0 falling (Driver: Pin hf_osc/CLKHF)
    Number of Clock Enables:  2
       Net VCC_net: 1 loads, 0 SLICEs
-      Net n240: 18 loads, 18 SLICEs
+      Net n609: 42 loads, 42 SLICEs
    Number of LSRs:  1
-      Net n226: 18 loads, 18 SLICEs
+      Net n569: 42 loads, 42 SLICEs
    Top 10 highest fanout non-clock nets:
+      Net n569: 42 loads
+      Net n609: 42 loads
+      Net scan.count.n47: 24 loads
       Net count.n35: 18 loads
-      Net n226: 18 loads
-      Net n240: 18 loads
       Net s[0]: 7 loads
       Net s[1]: 7 loads
       Net s[2]: 7 loads
       Net s[3]: 7 loads
-      Net anode_c: 5 loads
-      Net counter[15]: 4 loads
-      Net counter[16]: 4 loads
+      Net counter_adj_71[23]: 6 loads
+      Net scan.counter[21]: 6 loads
 
    Number of warnings:  0
    Number of criticals: 0
@@ -138,6 +138,30 @@ Command line:   map -pdc C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Rad
 | reset               | INPUT     |           |       |       |           |
 +---------------------+-----------+-----------+-------+-------+-----------+
 | enable              | INPUT     |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| col[3]              | INPUT     |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| col[2]              | INPUT     |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| col[1]              | INPUT     |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| col[0]              | INPUT     |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| led[3]              | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| led[2]              | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| led[1]              | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| led[0]              | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| scanner[3]          | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| scanner[2]          | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| scanner[1]          | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| scanner[0]          | OUTPUT    |           |       |       |           |
 +---------------------+-----------+-----------+-------+-------+-----------+
 | anode[1]            | OUTPUT    |           |       |       |           |
 +---------------------+-----------+-----------+-------+-------+-----------+
@@ -185,8 +209,8 @@ Instance Name: hf_osc
 
    Total CPU Time: 0 secs
    Total REAL Time: 0 secs
-   Peak Memory Usage: 66 MB
-Checksum -- map: e69ca92b7043565351020ba2bcfb9f14ed08edb
+   Peak Memory Usage: 67 MB
+Checksum -- map: 1c2719a64e8333a1c0fa3acfbb932cb7b3ec802d
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995
      AT&amp;T Corp.   All rights reserved.

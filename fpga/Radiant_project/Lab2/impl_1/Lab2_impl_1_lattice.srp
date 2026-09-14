@@ -5,7 +5,7 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2026 Lattice Semiconductor Corporation,  All rights reserved.
-Sat Sep 12 17:41:15 2026
+Sun Sep 13 18:51:46 2026
 
 
 Command Line:  C:\lscc\radiant\2026.1\ispfpga\bin\nt64\synthesis.exe -f C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/impl_1/Lab2_impl_1_lattice.synproj -logfile Lab2_impl_1_lattice.srp -gui -msgset C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/promote.xml 
@@ -121,6 +121,8 @@ Verilog design file: C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.v
 Verilog design file: ../source/impl_1/lab1_ta_hex_seg_decoder.sv
 Verilog design file: ../source/impl_1/lab2_ta.sv
 Verilog design file: ../source/impl_1/lab2_ta_counter.sv
+Verilog design file: ../source/impl_1/lab2_ta_scan.sv
+Verilog design file: ../source/impl_1/lab2_ta_scan_tb.sv
 VHDL library: pmi
 VHDL design file: C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.vhd
 
@@ -134,12 +136,17 @@ Analyzing Verilog file C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.v. VERI-1482
 Analyzing Verilog file ../source/impl_1/lab1_ta_hex_seg_decoder.sv. VERI-1482
 Analyzing Verilog file ../source/impl_1/lab2_ta.sv. VERI-1482
 Analyzing Verilog file ../source/impl_1/lab2_ta_counter.sv. VERI-1482
+Analyzing Verilog file ../source/impl_1/lab2_ta_scan.sv. VERI-1482
+Analyzing Verilog file ../source/impl_1/lab2_ta_scan_tb.sv. VERI-1482
 Top module name (Verilog): lab2_ta
 INFO <35901018> - synthesis: ../source/impl_1/lab2_ta.sv(5): compiling module lab2_ta. VERI-1018
 INFO <35901018> - synthesis: C:/lscc/radiant/2026.1/ispfpga\..\cae_library\synthesis\verilog\iCE40UP.v(756): compiling module HSOSC(CLKHF_DIV=2'b01). VERI-1018
 INFO <35901018> - synthesis: ../source/impl_1/lab2_ta_counter.sv(5): compiling module lab2_ta_counter(WIDTH=18,MAX_COUNT=200000). VERI-1018
 WARNING <35901209> - synthesis: ../source/impl_1/lab2_ta_counter.sv(21): expression size 32 truncated to fit in target size 18. VERI-1209
 INFO <35901018> - synthesis: ../source/impl_1/lab1_ta_hex_seg_decoder.sv(5): compiling module lab1_ta_hex_seg_decoder. VERI-1018
+INFO <35901018> - synthesis: ../source/impl_1/lab2_ta_scan.sv(6): compiling module lab2_ta_scan. VERI-1018
+INFO <35901018> - synthesis: ../source/impl_1/lab2_ta_counter.sv(5): compiling module lab2_ta_counter(WIDTH=24,MAX_COUNT=11999999). VERI-1018
+WARNING <35901209> - synthesis: ../source/impl_1/lab2_ta_counter.sv(21): expression size 32 truncated to fit in target size 24. VERI-1209
 [Parameter Setting Section Start]
 
 	[Parameter Settings for Instance(s): hf_osc]
@@ -150,6 +157,16 @@ INFO <35901018> - synthesis: ../source/impl_1/lab1_ta_hex_seg_decoder.sv(5): com
 	(Module: lab2_ta_counter)
 		WIDTH                     18
 		MAX_COUNT                 200000
+
+	[Parameter Settings for Instance(s): scan]
+	(Module: lab2_ta_scan)
+		WIDTH                     24
+		MAX_COUNT                 11999999
+
+	[Parameter Settings for Instance(s): count]
+	(Module: lab2_ta_counter)
+		WIDTH                     24
+		MAX_COUNT                 11999999
 
 [Parameter Setting Section End]
 
@@ -165,6 +182,18 @@ WARNING <35002062> - synthesis: Port rejected for I/O register mapping: s2[1]
 WARNING <35002062> - synthesis: Port rejected for I/O register mapping: s2[0]
 WARNING <35002062> - synthesis: Port rejected for I/O register mapping: reset
 WARNING <35002062> - synthesis: Port rejected for I/O register mapping: enable
+WARNING <35002062> - synthesis: Port rejected for I/O register mapping: col[3]
+WARNING <35002062> - synthesis: Port rejected for I/O register mapping: col[2]
+WARNING <35002062> - synthesis: Port rejected for I/O register mapping: col[1]
+WARNING <35002062> - synthesis: Port rejected for I/O register mapping: col[0]
+WARNING <35002062> - synthesis: Port rejected for I/O register mapping: led[3]
+WARNING <35002062> - synthesis: Port rejected for I/O register mapping: led[2]
+WARNING <35002062> - synthesis: Port rejected for I/O register mapping: led[1]
+WARNING <35002062> - synthesis: Port rejected for I/O register mapping: led[0]
+WARNING <35002062> - synthesis: Port rejected for I/O register mapping: scanner[3]
+WARNING <35002062> - synthesis: Port rejected for I/O register mapping: scanner[2]
+WARNING <35002062> - synthesis: Port rejected for I/O register mapping: scanner[1]
+WARNING <35002062> - synthesis: Port rejected for I/O register mapping: scanner[0]
 WARNING <35002062> - synthesis: Port rejected for I/O register mapping: anode[1]
 WARNING <35002062> - synthesis: Port rejected for I/O register mapping: anode[0]
 WARNING <35002062> - synthesis: Port rejected for I/O register mapping: seg[6]
@@ -176,16 +205,16 @@ WARNING <35002062> - synthesis: Port rejected for I/O register mapping: seg[1]
 WARNING <35002062> - synthesis: Port rejected for I/O register mapping: seg[0]
 
 ################### Begin Area Report (lab2_ta)######################
-Number of register bits => 18 of 5280 (0 % )
-CCU2 => 10
-FD1P3XZ => 18
+Number of register bits => 42 of 5280 (0 % )
+CCU2 => 23
+FD1P3XZ => 42
 HSOSC_CORE => 1
-IB => 10
-LUT4 => 43
-OB => 9
+IB => 14
+LUT4 => 100
+OB => 17
 ################### End Area Report ##################
 Number of odd-length carry chains : 0
-Number of even-length carry chains : 1
+Number of even-length carry chains : 2
 
 ################### Begin Clock Report ######################
 Clock Nets
@@ -195,16 +224,16 @@ Clock Enable Nets
 Number of Clock Enables: 0
 Highest fanout non-clock nets
 Top 10 highest fanout non-clock nets:
+  Net : n609, loads : 43
+  Net : n569, loads : 42
+  Net : scan/count/n47, loads : 30
   Net : count/n35, loads : 23
-  Net : n240, loads : 19
-  Net : n226, loads : 18
   Net : s[3], loads : 18
   Net : s[2], loads : 18
   Net : s[1], loads : 18
   Net : s[0], loads : 18
   Net : anode_c, loads : 16
-  Net : count/n39[17], loads : 12
-  Net : anode_c_N_19, loads : 11
+  Net : scan/count/n39[23], loads : 15
 ################### End Clock Report ##################
 
 ################### Begin Constraint Report ######################
@@ -213,10 +242,10 @@ Constraint Summary:
   Total number of constraints dropped: 0
 ###################  End Constraint Report  ######################
 
-Peak Memory Usage: 88 MB
+Peak Memory Usage: 89 MB
 
 --------------------------------------------------------------
 Total CPU Time: 0 secs 
 Total REAL Time: 3 secs 
 --------------------------------------------------------------
-Checksum -- synthesis -- netlist: 2ff8c6f58d07e1bca410489daaee383909eccf1
+Checksum -- synthesis -- netlist: 2f73c1c6e968ab2f7b7bbe14e5b3b88dd0bdf5ed

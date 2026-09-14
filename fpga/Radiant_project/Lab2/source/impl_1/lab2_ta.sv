@@ -5,7 +5,8 @@
 module lab2_ta (
     input  logic [3:0] s1, s2,
 	input logic reset, enable,
-   // output logic [3:0] led,
+	input logic [3:0] col,
+    output logic [3:0] led, scanner,
 	output logic [1:0] anode,
     output logic [6:0] seg
 );
@@ -41,5 +42,15 @@ module lab2_ta (
         .s(s),
         .seg(seg)
     );	
+ 
+	//Scanning module
+	lab2_ta_scan #(.WIDTH(24), .MAX_COUNT(11_999_999)) scan(
+        .clk(int_osc),
+		.reset(reset),
+		.enable(enable),
+		.scanner(scanner)
+	);
 	
+	//led logic
+	assign led = ~col;
 	endmodule
