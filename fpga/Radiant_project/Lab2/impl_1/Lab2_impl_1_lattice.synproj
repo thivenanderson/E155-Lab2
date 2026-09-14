@@ -45,6 +45,7 @@
 -sver "../source/impl_1/lab2_ta_counter.sv"
 -sver "../source/impl_1/lab2_ta_scan.sv"
 -sver "../source/impl_1/lab2_ta_scan_tb.sv"
+-sver "../source/impl_1/lab2_ta_toplevel_tb.sv"
 -path ".."
 -top lab2_ta
 # Output Configuration

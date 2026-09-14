@@ -2,20 +2,20 @@
 //Email: thanderson@g.hmc.edu
 //Date: 9/12/2026
 //Description: Top level module for lab 2 of E155
-module lab2_ta (
-    input  logic [3:0] s1, s2,
+module lab2_ta #(parameter int MAX_COUNT = 200_000,
+	parameter int WIDTH = 18)(
+    //input  logic [3:0] s1, s2,
 	input logic reset, enable,
 	input logic [3:0] col,
-    output logic [3:0] led, scanner,
-	output logic [1:0] anode,
-    output logic [6:0] seg
-);
+	//output logic [1:0] anode,
+    //output logic [6:0] seg,
+	output logic [3:0] led, scanner
+	);
 
-    logic int_osc, dig_s;
-	logic [3:0] s;
-	localparam int MAX_COUNT = 200_000;
-	localparam int WIDTH = 18;
-	logic [WIDTH-1:0] counter;
+    logic int_osc;
+	//logic dig_s;
+	//logic [3:0] s;
+	//logic [WIDTH-1:0] counter;
 
     // Internal oscillator
     HSOSC #(.CLKHF_DIV(2'b01))
@@ -24,6 +24,7 @@ module lab2_ta (
             .CLKHFEN(1'b1),
             .CLKHF(int_osc)
         );
+	/*
 	//Dual display mux logic
 	lab2_ta_counter #(
     .WIDTH(WIDTH),
@@ -42,7 +43,7 @@ module lab2_ta (
         .s(s),
         .seg(seg)
     );	
- 
+	*/
 	//Scanning module
 	lab2_ta_scan #(.WIDTH(24), .MAX_COUNT(11_999_999)) scan(
         .clk(int_osc),

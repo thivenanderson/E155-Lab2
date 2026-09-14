@@ -5,17 +5,17 @@ set ::bali::simulation::Para(DEVICEFAMILYNAME) {iCE40UP}
 set ::bali::simulation::Para(PROJECT) {lab2}
 set ::bali::simulation::Para(MDOFILE) {}
 set ::bali::simulation::Para(PROJECTPATH) {C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/lab2}
-set ::bali::simulation::Para(FILELIST) {"C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/source/impl_1/lab1_ta_hex_seg_decoder.sv" "C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/source/impl_1/lab2_ta.sv" "C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/source/impl_1/lab2_ta_counter.sv" "C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/source/impl_1/lab2_ta_scan.sv" "C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/source/impl_1/lab2_ta_scan_tb.sv" }
+set ::bali::simulation::Para(FILELIST) {"C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/source/impl_1/lab1_ta_hex_seg_decoder.sv" "C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/source/impl_1/lab2_ta.sv" "C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/source/impl_1/lab2_ta_counter.sv" "C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/source/impl_1/lab2_ta_scan.sv" "C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/source/impl_1/lab2_ta_scan_tb.sv" "C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/source/impl_1/lab2_ta_toplevel_tb.sv" }
 set ::bali::simulation::Para(GLBINCLIST) {}
-set ::bali::simulation::Para(INCLIST) {"none" "none" "none" "none" "none"}
-set ::bali::simulation::Para(WORKLIBLIST) {"work" "work" "work" "work" "work" }
-set ::bali::simulation::Para(COMPLIST) {"VERILOG" "VERILOG" "VERILOG" "VERILOG" "VERILOG" }
-set ::bali::simulation::Para(LANGSTDLIST) {"System Verilog" "System Verilog" "System Verilog" "System Verilog" "System Verilog" }
+set ::bali::simulation::Para(INCLIST) {"none" "none" "none" "none" "none" "none"}
+set ::bali::simulation::Para(WORKLIBLIST) {"work" "work" "work" "work" "work" "work" }
+set ::bali::simulation::Para(COMPLIST) {"VERILOG" "VERILOG" "VERILOG" "VERILOG" "VERILOG" "VERILOG" }
+set ::bali::simulation::Para(LANGSTDLIST) {"System Verilog" "System Verilog" "System Verilog" "System Verilog" "System Verilog" "System Verilog" }
 set ::bali::simulation::Para(SIMLIBLIST) {pmi_work ovi_ice40up}
 set ::bali::simulation::Para(MACROLIST) {}
-set ::bali::simulation::Para(SIMULATIONTOPMODULE) {lab2_ta_scan_tb}
+set ::bali::simulation::Para(SIMULATIONTOPMODULE) {lab2_ta_toplevel_tb}
 set ::bali::simulation::Para(SIMULATIONINSTANCE) {}
-set ::bali::simulation::Para(LANGUAGE) {VERILOG}
+set ::bali::simulation::Para(LANGUAGE) {}
 set ::bali::simulation::Para(SDFPATH)  {}
 set ::bali::simulation::Para(INSTALLATIONPATH) {C:/lscc/radiant/2026.1}
 set ::bali::simulation::Para(MEMPATH) {}

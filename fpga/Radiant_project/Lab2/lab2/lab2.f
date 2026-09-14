@@ -8,6 +8,7 @@
 "C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/source/impl_1/lab2_ta_counter.sv" 
 "C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/source/impl_1/lab2_ta_scan.sv" 
 "C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/source/impl_1/lab2_ta_scan_tb.sv" 
+"C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/source/impl_1/lab2_ta_toplevel_tb.sv" 
 -sv
 -optionset VOPTDEBUG
 +noacc+pmi_work.*
@@ -18,7 +19,7 @@
 -end
 
 -gui
--top lab2_ta_scan_tb
+-top lab2_ta_toplevel_tb
 -vsim.options
   -suppress vsim-7033,vsim-8630,3009,3389
 -end

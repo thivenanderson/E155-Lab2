@@ -1,0 +1,5 @@
+BEGIN 1:lab2_ta:fast:work
+    dig_s :  1:lab1_ta_toplevel_tb:fast:work
+    int_osc :  1:lab1_ta_toplevel_tb:fast:work
+    s :  1:lab1_ta_toplevel_tb:fast:work
+END 

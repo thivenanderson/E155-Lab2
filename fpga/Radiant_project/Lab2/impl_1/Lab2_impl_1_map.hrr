@@ -3,50 +3,32 @@ Report for cell lab2_ta
    Instance path: lab2_ta
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  LUT4	        147        100.0
-                               LUTGATE	        101        100.0
-                                LUTCCU	         46        100.0
-                                 IOBUF	         31        100.0
-                                PFUREG	         42        100.0
+                                  LUT4	         87        100.0
+                               LUTGATE	         61        100.0
+                                LUTCCU	         26        100.0
+                                 IOBUF	         14        100.0
+                                PFUREG	         24        100.0
 SUB MODULES
                                   cell	      count    LUT4 Usage(%)
-               lab1_ta_hex_seg_decoder	          1         4.8
-lab2_ta_counter(WIDTH=18,MAX_COUNT=200000)	          1        30.6
-                          lab2_ta_scan	          1        52.4
----------------------------------------------------
-Report for cell lab1_ta_hex_seg_decoder
-   Instance path: lab2_ta/decoder
-                     Cell usage:
-                                  cell	      count    Res Usage(%)
-                                  LUT4	          7         4.8
-                               LUTGATE	          7         6.9
----------------------------------------------------
-Report for cell lab2_ta_counter(WIDTH=18,MAX_COUNT=200000)
-   Instance path: lab2_ta/count
-                     Cell usage:
-                                  cell	      count    Res Usage(%)
-                                  LUT4	         45        30.6
-                               LUTGATE	         25        24.8
-                                LUTCCU	         20        43.5
-                                PFUREG	         18        42.9
+                          lab2_ta_scan	          1        92.0
 ---------------------------------------------------
 Report for cell lab2_ta_scan
    Instance path: lab2_ta/scan
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  LUT4	         77        52.4
-                               LUTGATE	         51        50.5
-                                LUTCCU	         26        56.5
-                                PFUREG	         24        57.1
+                                  LUT4	         80        92.0
+                               LUTGATE	         54        88.5
+                                LUTCCU	         26        100.0
+                                PFUREG	         24        100.0
 SUB MODULES
                                   cell	      count    LUT4 Usage(%)
-lab2_ta_counter(WIDTH=24,MAX_COUNT=11999999)	          1        42.9
+lab2_ta_counter(WIDTH=24,MAX_COUNT=11999999)	          1        67.8
 ---------------------------------------------------
 Report for cell lab2_ta_counter(WIDTH=24,MAX_COUNT=11999999)
    Instance path: lab2_ta/scan/count
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  LUT4	         63        42.9
-                               LUTGATE	         37        36.6
-                                LUTCCU	         26        56.5
-                                PFUREG	         24        57.1
+                                  LUT4	         59        67.8
+                               LUTGATE	         33        54.1
+                                LUTCCU	         26        100.0
+                                PFUREG	         24        100.0

@@ -1,5 +1,268 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <BaliMessageLog>
+    <Task name="Map">
+        <Message>
+            <ID>1026001</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/lab2.pdc</Dynamic>
+            <Dynamic>3</Dynamic>
+            <Dynamic>No port matched 's1[0]'.</Dynamic>
+            <Navigation>C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/lab2.pdc</Navigation>
+            <Navigation>3</Navigation>
+        </Message>
+        <Message>
+            <ID>1026001</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/lab2.pdc</Dynamic>
+            <Dynamic>4</Dynamic>
+            <Dynamic>No port matched 's1[1]'.</Dynamic>
+            <Navigation>C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/lab2.pdc</Navigation>
+            <Navigation>4</Navigation>
+        </Message>
+        <Message>
+            <ID>1026001</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/lab2.pdc</Dynamic>
+            <Dynamic>5</Dynamic>
+            <Dynamic>No port matched 's1[2]'.</Dynamic>
+            <Navigation>C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/lab2.pdc</Navigation>
+            <Navigation>5</Navigation>
+        </Message>
+        <Message>
+            <ID>1026001</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/lab2.pdc</Dynamic>
+            <Dynamic>6</Dynamic>
+            <Dynamic>No port matched 's1[3]'.</Dynamic>
+            <Navigation>C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/lab2.pdc</Navigation>
+            <Navigation>6</Navigation>
+        </Message>
+        <Message>
+            <ID>1026001</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/lab2.pdc</Dynamic>
+            <Dynamic>7</Dynamic>
+            <Dynamic>No port matched 's2[0]'.</Dynamic>
+            <Navigation>C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/lab2.pdc</Navigation>
+            <Navigation>7</Navigation>
+        </Message>
+        <Message>
+            <ID>1026001</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/lab2.pdc</Dynamic>
+            <Dynamic>10</Dynamic>
+            <Dynamic>No port matched 's2[3]'.</Dynamic>
+            <Navigation>C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/lab2.pdc</Navigation>
+            <Navigation>10</Navigation>
+        </Message>
+        <Message>
+            <ID>1026001</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/lab2.pdc</Dynamic>
+            <Dynamic>13</Dynamic>
+            <Dynamic>No port matched 'seg[1]'.</Dynamic>
+            <Navigation>C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/lab2.pdc</Navigation>
+            <Navigation>13</Navigation>
+        </Message>
+        <Message>
+            <ID>1026001</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/lab2.pdc</Dynamic>
+            <Dynamic>14</Dynamic>
+            <Dynamic>No port matched 'seg[2]'.</Dynamic>
+            <Navigation>C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/lab2.pdc</Navigation>
+            <Navigation>14</Navigation>
+        </Message>
+        <Message>
+            <ID>1026001</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/lab2.pdc</Dynamic>
+            <Dynamic>17</Dynamic>
+            <Dynamic>No port matched 'seg[6]'.</Dynamic>
+            <Navigation>C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/lab2.pdc</Navigation>
+            <Navigation>17</Navigation>
+        </Message>
+        <Message>
+            <ID>1027013</ID>
+            <Severity>16</Severity>
+            <Dynamic>port</Dynamic>
+            <Dynamic>s1[0]</Dynamic>
+        </Message>
+        <Message>
+            <ID>1026001</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/lab2.pdc</Dynamic>
+            <Dynamic>3</Dynamic>
+            <Dynamic>Can't resolve object 's1[0]' in constraint 'ldc_set_location -site {32} [get_ports {s1[0]}]'.</Dynamic>
+            <Navigation>C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/lab2.pdc</Navigation>
+            <Navigation>3</Navigation>
+        </Message>
+        <Message>
+            <ID>1027013</ID>
+            <Severity>16</Severity>
+            <Dynamic>port</Dynamic>
+            <Dynamic>s1[1]</Dynamic>
+        </Message>
+        <Message>
+            <ID>1026001</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/lab2.pdc</Dynamic>
+            <Dynamic>4</Dynamic>
+            <Dynamic>Can't resolve object 's1[1]' in constraint 'ldc_set_location -site {35} [get_ports {s1[1]}]'.</Dynamic>
+            <Navigation>C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/lab2.pdc</Navigation>
+            <Navigation>4</Navigation>
+        </Message>
+        <Message>
+            <ID>1027013</ID>
+            <Severity>16</Severity>
+            <Dynamic>port</Dynamic>
+            <Dynamic>s1[2]</Dynamic>
+        </Message>
+        <Message>
+            <ID>1026001</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/lab2.pdc</Dynamic>
+            <Dynamic>5</Dynamic>
+            <Dynamic>Can't resolve object 's1[2]' in constraint 'ldc_set_location -site {31} [get_ports {s1[2]}]'.</Dynamic>
+            <Navigation>C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/lab2.pdc</Navigation>
+            <Navigation>5</Navigation>
+        </Message>
+        <Message>
+            <ID>1027013</ID>
+            <Severity>16</Severity>
+            <Dynamic>port</Dynamic>
+            <Dynamic>s1[3]</Dynamic>
+        </Message>
+        <Message>
+            <ID>1026001</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/lab2.pdc</Dynamic>
+            <Dynamic>6</Dynamic>
+            <Dynamic>Can't resolve object 's1[3]' in constraint 'ldc_set_location -site {37} [get_ports {s1[3]}]'.</Dynamic>
+            <Navigation>C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/lab2.pdc</Navigation>
+            <Navigation>6</Navigation>
+        </Message>
+        <Message>
+            <ID>1027013</ID>
+            <Severity>16</Severity>
+            <Dynamic>port</Dynamic>
+            <Dynamic>s2[0]</Dynamic>
+        </Message>
+        <Message>
+            <ID>1026001</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/lab2.pdc</Dynamic>
+            <Dynamic>7</Dynamic>
+            <Dynamic>Can't resolve object 's2[0]' in constraint 'ldc_set_location -site {13} [get_ports {s2[0]}]'.</Dynamic>
+            <Navigation>C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/lab2.pdc</Navigation>
+            <Navigation>7</Navigation>
+        </Message>
+        <Message>
+            <ID>1027013</ID>
+            <Severity>16</Severity>
+            <Dynamic>port</Dynamic>
+            <Dynamic>s2[3]</Dynamic>
+        </Message>
+        <Message>
+            <ID>1026001</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/lab2.pdc</Dynamic>
+            <Dynamic>10</Dynamic>
+            <Dynamic>Can't resolve object 's2[3]' in constraint 'ldc_set_location -site {44} [get_ports {s2[3]}]'.</Dynamic>
+            <Navigation>C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/lab2.pdc</Navigation>
+            <Navigation>10</Navigation>
+        </Message>
+        <Message>
+            <ID>1027013</ID>
+            <Severity>16</Severity>
+            <Dynamic>port</Dynamic>
+            <Dynamic>seg[1]</Dynamic>
+        </Message>
+        <Message>
+            <ID>1026001</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/lab2.pdc</Dynamic>
+            <Dynamic>13</Dynamic>
+            <Dynamic>Can't resolve object 'seg[1]' in constraint 'ldc_set_location -site {19} [get_ports {seg[1]}]'.</Dynamic>
+            <Navigation>C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/lab2.pdc</Navigation>
+            <Navigation>13</Navigation>
+        </Message>
+        <Message>
+            <ID>1027013</ID>
+            <Severity>16</Severity>
+            <Dynamic>port</Dynamic>
+            <Dynamic>seg[2]</Dynamic>
+        </Message>
+        <Message>
+            <ID>1026001</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/lab2.pdc</Dynamic>
+            <Dynamic>14</Dynamic>
+            <Dynamic>Can't resolve object 'seg[2]' in constraint 'ldc_set_location -site {45} [get_ports {seg[2]}]'.</Dynamic>
+            <Navigation>C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/lab2.pdc</Navigation>
+            <Navigation>14</Navigation>
+        </Message>
+        <Message>
+            <ID>1027013</ID>
+            <Severity>16</Severity>
+            <Dynamic>port</Dynamic>
+            <Dynamic>seg[6]</Dynamic>
+        </Message>
+        <Message>
+            <ID>1026001</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/lab2.pdc</Dynamic>
+            <Dynamic>17</Dynamic>
+            <Dynamic>Can't resolve object 'seg[6]' in constraint 'ldc_set_location -site {46} [get_ports {seg[6]}]'.</Dynamic>
+            <Navigation>C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/lab2.pdc</Navigation>
+            <Navigation>17</Navigation>
+        </Message>
+        <Message>
+            <ID>1011001</ID>
+            <Severity>16</Severity>
+            <Dynamic>ldc_set_location -site {32} [get_ports {s1[0]}]</Dynamic>
+        </Message>
+        <Message>
+            <ID>1011001</ID>
+            <Severity>16</Severity>
+            <Dynamic>ldc_set_location -site {35} [get_ports {s1[1]}]</Dynamic>
+        </Message>
+        <Message>
+            <ID>1011001</ID>
+            <Severity>16</Severity>
+            <Dynamic>ldc_set_location -site {31} [get_ports {s1[2]}]</Dynamic>
+        </Message>
+        <Message>
+            <ID>1011001</ID>
+            <Severity>16</Severity>
+            <Dynamic>ldc_set_location -site {37} [get_ports {s1[3]}]</Dynamic>
+        </Message>
+        <Message>
+            <ID>1011001</ID>
+            <Severity>16</Severity>
+            <Dynamic>ldc_set_location -site {13} [get_ports {s2[0]}]</Dynamic>
+        </Message>
+        <Message>
+            <ID>1011001</ID>
+            <Severity>16</Severity>
+            <Dynamic>ldc_set_location -site {44} [get_ports {s2[3]}]</Dynamic>
+        </Message>
+        <Message>
+            <ID>1011001</ID>
+            <Severity>16</Severity>
+            <Dynamic>ldc_set_location -site {19} [get_ports {seg[1]}]</Dynamic>
+        </Message>
+        <Message>
+            <ID>1011001</ID>
+            <Severity>16</Severity>
+            <Dynamic>ldc_set_location -site {45} [get_ports {seg[2]}]</Dynamic>
+        </Message>
+        <Message>
+            <ID>1011001</ID>
+            <Severity>16</Severity>
+            <Dynamic>ldc_set_location -site {46} [get_ports {seg[6]}]</Dynamic>
+        </Message>
+    </Task>
     <Task name="Synthesis">
         <Message>
             <ID>35831038</ID>
@@ -785,31 +1048,6 @@
         <Message>
             <ID>35901018</ID>
             <Severity>1</Severity>
-            <Dynamic>C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/source/impl_1/lab2_ta_counter.sv(5): </Dynamic>
-            <Dynamic>lab2_ta_counter(WIDTH=18,MAX_COUNT=200000)</Dynamic>
-            <Navigation>C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/source/impl_1/lab2_ta_counter.sv</Navigation>
-            <Navigation>5</Navigation>
-        </Message>
-        <Message>
-            <ID>35901209</ID>
-            <Severity>16</Severity>
-            <Dynamic>C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/source/impl_1/lab2_ta_counter.sv(21): </Dynamic>
-            <Dynamic>32</Dynamic>
-            <Dynamic>18</Dynamic>
-            <Navigation>C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/source/impl_1/lab2_ta_counter.sv</Navigation>
-            <Navigation>21</Navigation>
-        </Message>
-        <Message>
-            <ID>35901018</ID>
-            <Severity>1</Severity>
-            <Dynamic>C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/source/impl_1/lab1_ta_hex_seg_decoder.sv(5): </Dynamic>
-            <Dynamic>lab1_ta_hex_seg_decoder</Dynamic>
-            <Navigation>C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/source/impl_1/lab1_ta_hex_seg_decoder.sv</Navigation>
-            <Navigation>5</Navigation>
-        </Message>
-        <Message>
-            <ID>35901018</ID>
-            <Severity>1</Severity>
             <Dynamic>C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/source/impl_1/lab2_ta_scan.sv(6): </Dynamic>
             <Dynamic>lab2_ta_scan</Dynamic>
             <Navigation>C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/source/impl_1/lab2_ta_scan.sv</Navigation>
@@ -855,31 +1093,6 @@
         <Message>
             <ID>35901018</ID>
             <Severity>1</Severity>
-            <Dynamic>../source/impl_1/lab2_ta_counter.sv(5): </Dynamic>
-            <Dynamic>lab2_ta_counter(WIDTH=18,MAX_COUNT=200000)</Dynamic>
-            <Navigation>../source/impl_1/lab2_ta_counter.sv</Navigation>
-            <Navigation>5</Navigation>
-        </Message>
-        <Message>
-            <ID>35901209</ID>
-            <Severity>16</Severity>
-            <Dynamic>../source/impl_1/lab2_ta_counter.sv(21): </Dynamic>
-            <Dynamic>32</Dynamic>
-            <Dynamic>18</Dynamic>
-            <Navigation>../source/impl_1/lab2_ta_counter.sv</Navigation>
-            <Navigation>21</Navigation>
-        </Message>
-        <Message>
-            <ID>35901018</ID>
-            <Severity>1</Severity>
-            <Dynamic>../source/impl_1/lab1_ta_hex_seg_decoder.sv(5): </Dynamic>
-            <Dynamic>lab1_ta_hex_seg_decoder</Dynamic>
-            <Navigation>../source/impl_1/lab1_ta_hex_seg_decoder.sv</Navigation>
-            <Navigation>5</Navigation>
-        </Message>
-        <Message>
-            <ID>35901018</ID>
-            <Severity>1</Severity>
             <Dynamic>../source/impl_1/lab2_ta_scan.sv(6): </Dynamic>
             <Dynamic>lab2_ta_scan</Dynamic>
             <Navigation>../source/impl_1/lab2_ta_scan.sv</Navigation>
@@ -901,46 +1114,6 @@
             <Dynamic>24</Dynamic>
             <Navigation>../source/impl_1/lab2_ta_counter.sv</Navigation>
             <Navigation>21</Navigation>
-        </Message>
-        <Message>
-            <ID>35002062</ID>
-            <Severity>16</Severity>
-            <Dynamic>s1[3]</Dynamic>
-        </Message>
-        <Message>
-            <ID>35002062</ID>
-            <Severity>16</Severity>
-            <Dynamic>s1[2]</Dynamic>
-        </Message>
-        <Message>
-            <ID>35002062</ID>
-            <Severity>16</Severity>
-            <Dynamic>s1[1]</Dynamic>
-        </Message>
-        <Message>
-            <ID>35002062</ID>
-            <Severity>16</Severity>
-            <Dynamic>s1[0]</Dynamic>
-        </Message>
-        <Message>
-            <ID>35002062</ID>
-            <Severity>16</Severity>
-            <Dynamic>s2[3]</Dynamic>
-        </Message>
-        <Message>
-            <ID>35002062</ID>
-            <Severity>16</Severity>
-            <Dynamic>s2[2]</Dynamic>
-        </Message>
-        <Message>
-            <ID>35002062</ID>
-            <Severity>16</Severity>
-            <Dynamic>s2[1]</Dynamic>
-        </Message>
-        <Message>
-            <ID>35002062</ID>
-            <Severity>16</Severity>
-            <Dynamic>s2[0]</Dynamic>
         </Message>
         <Message>
             <ID>35002062</ID>
@@ -1011,51 +1184,6 @@
             <ID>35002062</ID>
             <Severity>16</Severity>
             <Dynamic>scanner[0]</Dynamic>
-        </Message>
-        <Message>
-            <ID>35002062</ID>
-            <Severity>16</Severity>
-            <Dynamic>anode[1]</Dynamic>
-        </Message>
-        <Message>
-            <ID>35002062</ID>
-            <Severity>16</Severity>
-            <Dynamic>anode[0]</Dynamic>
-        </Message>
-        <Message>
-            <ID>35002062</ID>
-            <Severity>16</Severity>
-            <Dynamic>seg[6]</Dynamic>
-        </Message>
-        <Message>
-            <ID>35002062</ID>
-            <Severity>16</Severity>
-            <Dynamic>seg[5]</Dynamic>
-        </Message>
-        <Message>
-            <ID>35002062</ID>
-            <Severity>16</Severity>
-            <Dynamic>seg[4]</Dynamic>
-        </Message>
-        <Message>
-            <ID>35002062</ID>
-            <Severity>16</Severity>
-            <Dynamic>seg[3]</Dynamic>
-        </Message>
-        <Message>
-            <ID>35002062</ID>
-            <Severity>16</Severity>
-            <Dynamic>seg[2]</Dynamic>
-        </Message>
-        <Message>
-            <ID>35002062</ID>
-            <Severity>16</Severity>
-            <Dynamic>seg[1]</Dynamic>
-        </Message>
-        <Message>
-            <ID>35002062</ID>
-            <Severity>16</Severity>
-            <Dynamic>seg[0]</Dynamic>
         </Message>
     </Task>
 </BaliMessageLog>

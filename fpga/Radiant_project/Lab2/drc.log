@@ -1,3 +1,21 @@
 DRC: Design Rule Check Radiant Software (64-bit) 2026.1.0.37.0
-Sat Sep 12 17:56:19 2026
+Sun Sep 13 22:21:41 2026
 
+WARNING <1027013> - No port matched 's1[0]'.
+WARNING <1026001> - C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/lab2.pdc (3) : Can't resolve object 's1[0]' in constraint 'ldc_set_location -site {32} [get_ports {s1[0]}]'.
+WARNING <1027013> - No port matched 's1[1]'.
+WARNING <1026001> - C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/lab2.pdc (4) : Can't resolve object 's1[1]' in constraint 'ldc_set_location -site {35} [get_ports {s1[1]}]'.
+WARNING <1027013> - No port matched 's1[2]'.
+WARNING <1026001> - C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/lab2.pdc (5) : Can't resolve object 's1[2]' in constraint 'ldc_set_location -site {31} [get_ports {s1[2]}]'.
+WARNING <1027013> - No port matched 's1[3]'.
+WARNING <1026001> - C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/lab2.pdc (6) : Can't resolve object 's1[3]' in constraint 'ldc_set_location -site {37} [get_ports {s1[3]}]'.
+WARNING <1027013> - No port matched 's2[0]'.
+WARNING <1026001> - C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/lab2.pdc (7) : Can't resolve object 's2[0]' in constraint 'ldc_set_location -site {13} [get_ports {s2[0]}]'.
+WARNING <1027013> - No port matched 's2[3]'.
+WARNING <1026001> - C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/lab2.pdc (10) : Can't resolve object 's2[3]' in constraint 'ldc_set_location -site {44} [get_ports {s2[3]}]'.
+WARNING <1027013> - No port matched 'seg[1]'.
+WARNING <1026001> - C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/lab2.pdc (13) : Can't resolve object 'seg[1]' in constraint 'ldc_set_location -site {19} [get_ports {seg[1]}]'.
+WARNING <1027013> - No port matched 'seg[2]'.
+WARNING <1026001> - C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/lab2.pdc (14) : Can't resolve object 'seg[2]' in constraint 'ldc_set_location -site {45} [get_ports {seg[2]}]'.
+WARNING <1027013> - No port matched 'seg[6]'.
+WARNING <1026001> - C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/lab2.pdc (17) : Can't resolve object 'seg[6]' in constraint 'ldc_set_location -site {46} [get_ports {seg[6]}]'.
