@@ -1,0 +1,11 @@
+----------------------------------------------------------------------
+Report for cell seven_seg_mux.TECH
+Register bits:  1 of 5280 (0.019%)
+I/O cells:      23
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3XZ         1          100.0
+                                 IB         9          100.0
+                               LUT4        26          100.0
+                                 OB        14          100.0
+                              TOTAL        50

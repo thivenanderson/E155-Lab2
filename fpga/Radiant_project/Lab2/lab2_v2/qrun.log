@@ -303,3 +303,5 @@ run -all
 # ** Note: $stop    : C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/source/impl_1/lab2_ta_toplevel_tb.sv(128)
 #    Time: 105744 ps  Iteration: 0  Instance: /lab1_ta_toplevel_tb
 # Break in Module lab1_ta_toplevel_tb at C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/Lab2/source/impl_1/lab2_ta_toplevel_tb.sv line 128
+# End time: 22:47:28 on Sep 13,2026, Elapsed time: 1:28:59
+# Errors: 0, Warnings: 0
