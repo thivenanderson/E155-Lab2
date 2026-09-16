@@ -10,7 +10,7 @@ module lab2_ta_counter #(
 		);
 	
 		
-	always_ff @(posedge clk) begin
+	always_ff @(posedge clk, reset) begin
 		
 			if (!reset) 
 				counter <= 0;
