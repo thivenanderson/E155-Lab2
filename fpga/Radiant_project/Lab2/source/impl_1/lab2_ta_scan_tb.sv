@@ -57,6 +57,23 @@ initial begin
 	$display("Passed! The scanner module behaves as desired at time: %0t.", $time); 
 	else 
             $error("FAILED! The scanner module behaves incorrectly at time: %0t.", $time); 
+	reset =0;
+	#1;
+
+	assert ( scanner == 4'b1000)
+	$display("Passed! The scanner module behaves as desired at time: %0t.", $time); 
+	else 
+            $error("FAILED! The scanner module behaves incorrectly at time: %0t.", $time); 
+	reset =1;
+	#1
+		repeat (3) @ (posedge clk);
+	
+		#1;
+	enable = 0;
+	assert ( scanner == 4'b0100)
+	$display("Passed! The scanner module behaves as desired at time: %0t.", $time); 
+	else 
+            $error("FAILED! The scanner module behaves incorrectly at time: %0t.", $time); 
 			
 	#10;
 	$stop;

@@ -1,0 +1,10 @@
+#Start recording tcl command: 9/15/2026 14:48:26
+#Project Location: C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/lab2_ai_p2; Project name: lab2_ai_p2
+prj_create -name "lab2_ai_p2" -impl "impl_1" -dev iCE40UP5K-SG48I -performance "High-Performance_1.2V" -synthesis "lse"
+prj_save 
+prj_add_source "C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/lab2_ai_p2/source/impl_1/seven_seg_time_mux.sv"
+prj_add_source "C:/Users/thanderson/Documents/GitHub/E155-Lab2/fpga/Radiant_project/lab2_ai_p2/source/impl_1/lab1_ta_hex_seg_decoder.sv"
+prj_set_impl_opt -impl "impl_1" {top} {seven_seg_time_mux}
+prj_save 
+prj_close
+#Stop recording: 9/15/2026 16:31:29

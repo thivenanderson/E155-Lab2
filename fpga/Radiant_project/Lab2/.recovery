@@ -27,6 +27,9 @@
         <Source name="lab2/lab2.spf" type="Simulation Project File" type_short="SPF">
             <Options/>
         </Source>
+        <Source name="lab2_minor_redo/lab2_minor_redo.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
         <Source name="lab2_v2/lab2_v2.spf" type="Simulation Project File" type_short="SPF">
             <Options/>
         </Source>
